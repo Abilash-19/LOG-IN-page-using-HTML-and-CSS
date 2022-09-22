@@ -1,0 +1,132 @@
+
+/* follow me on instagram @lash.uiux*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/background\ image.jpg);
+    background-size: cover;
+}
+.container{
+
+    width: 550px;
+    height: 440px;
+    backdrop-filter: blur(16px) saturate(118%);
+    -webkit-backdrop-filter: blur(16px) saturate(118%);
+    background-color: rgba(17, 25, 40, 0.78);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.container h3{
+
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 30px 40px;
+    letter-spacing: 3px;
+    padding-right: 20px;
+    position: relative;
+}
+
+
+
+
+
+h3::before{
+
+    content:'';
+    position: absolute;
+    background: rgb(237,12,74);
+    background: linear-gradient(0deg, rgba(237,12,74,1) 27%, rgba(182,45,253,1) 75%);
+    height: 3px;
+    width: 100px;
+    bottom: 15px;
+    border-radius: 3px;
+}
+
+form{
+
+    padding: 20px 30px;
+}
+.details label,input{
+
+    display: block;
+    margin-top: 20px;
+}
+
+.details input{
+
+    border: none;
+    outline: none;
+    background-color:whitesmoke;
+    width: 100%;
+    color: black;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0px 20px;
+
+
+}
+
+.details label{
+
+    color: rgb(245, 245, 245);
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bottom{
+
+    margin-top: 30px;
+}
+.bottom a{
+
+    color: rgb(104, 128, 235);
+    text-decoration: none;
+}
+
+.btn{
+
+    display: flex;
+    justify-content: center;
+    
+}
+.btn button{
+    color:rgb(255, 251, 251);
+    background-color: rgb(2, 2, 2);
+    text-transform: uppercase;
+    margin-top: 25px;
+    padding: 15px 30px;
+  
+    border-radius: 5px;
+    cursor: pointer;
+   transition: 0.3s;
+    border: none;
+}
+
+.btn button:hover{
+
+    
+    background-color: aliceblue;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+
